@@ -4,6 +4,8 @@ This repository contains the source code for the Adaptive Quiz System (AQS) prot
 
 The AQS is a web-based application designed to provide personalized learning experiences for professionals in the construction industry. It uses an adaptive engine that integrates Item Response Theory (IRT) with the Upper Confidence Bound (UCB) algorithm to dynamically select quiz items based on each learner's estimated ability level, thereby optimizing for knowledge gain and precision.
 
+*** This require some modifications on the routing APIs, since the research study was conducting with LMS-based and Web-based platform. ***
+
 ## Features
 
 * **Adaptive Quiz Engine:** Dynamically adjusts question difficulty based on learner performance.
@@ -60,7 +62,7 @@ Follow these instructions to set up and run the AQS web application on your loca
     ```bash
     flask run
     ```
-    The application will be available at `http://127.0.0.1:5000`.
+    The application will be available at `http://127.0.0.1:(your_port)`.
 
 ## Citation
 
